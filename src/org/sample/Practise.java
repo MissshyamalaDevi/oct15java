@@ -18,6 +18,8 @@ public class Practise {
 		
 		WebDriver driver = new ChromeDriver();
 		driver.get("http://demo.automationtesting.in/Alerts.html");
+		Actions a = new Actions(driver);
+		a.doubleClick().perform(); 
 		
 		
 		
