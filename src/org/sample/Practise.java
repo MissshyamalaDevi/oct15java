@@ -20,7 +20,8 @@ public class Practise {
 		driver.get("http://demo.automationtesting.in/Alerts.html");
 		Actions a = new Actions(driver);
 		a.doubleClick().perform(); 
-		
+		Robot r = new Robot ();
+				
 		
 		
 		
