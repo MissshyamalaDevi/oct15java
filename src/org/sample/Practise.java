@@ -26,10 +26,8 @@ public class Practise {
 		Select s = new Select(null);
 		
 		System.out.println("one");
+		System.out.println("two");
 		
-		
-		
-				
 		
 		
 		
