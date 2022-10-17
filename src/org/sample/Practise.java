@@ -10,6 +10,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.Select;
 
 public class Practise {
 	
@@ -21,6 +22,13 @@ public class Practise {
 		Actions a = new Actions(driver);
 		a.doubleClick().perform(); 
 		Robot r = new Robot ();
+		
+		Select s = new Select(null);
+		
+		System.out.println("one");
+		
+		
+		
 				
 		
 		
