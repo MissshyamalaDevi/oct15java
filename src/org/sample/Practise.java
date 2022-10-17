@@ -21,6 +21,8 @@ public class Practise {
 		Actions a = new Actions(driver);
 		a.doubleClick().perform(); 
 		Robot r = new Robot ();
+		
+		System.out.println("Step1: To check the functionality of the login button");
 				
 		
 		
