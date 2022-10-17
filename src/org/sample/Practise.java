@@ -29,6 +29,9 @@ public class Practise {
 
 		System.out.println("Step1: To check the functionality of the login button");
 
+		System.out.println("two");
+		
+		System.out.println("Step2: To validate with invalid combination of credentials");
 	}
 
 }
